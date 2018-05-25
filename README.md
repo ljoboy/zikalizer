@@ -1,25 +1,20 @@
-# Media player
+# ZIKALIZER
 
-To try this project, go to: http://nt1m.github.io/media-player
+## Auteurs: 
+- [Lijerbul LJOBOY](https://fb.me/jonathan.bosemwa)
 
-Optimized for Firefox and Chrome.
+## Ressources
+- Visualiseur audio (modifié): [HTML5 Audio Visualizer](https://github.com/Wayou/HTML5_Audio_Visualizer)
+- Icones: [Material Design Icons](https://github.com/google/material-design-icons)
 
-## Authors
-- Maintainers: Mohamed Hadjoudj (@MohIceAge), Tim Nguyen (@nt1m)
-- Contributors: Daniell Mesquita (@Plasmmer)
-
-## Resources
-- Audio visualizer (modified): [HTML5 Audio Visualizer](https://github.com/Wayou/HTML5_Audio_Visualizer)
-- Icons: [Material Design Icons](https://github.com/google/material-design-icons)
-
-## Technologies used
-- Web Audio API (visualizer)
-- HTML `<video>` tag
+## Technologies utilisées
+- Web Audio API (Visualiseur)
+- HTML `<video>` balise
 - CSS variables
 - Canvas
 
-## Contributing
-Pull requests ! Feel free to skim through [our list of issues](https://github.com/nt1m/media-player/issues) to see you can contribute [:)](http://i.imgur.com/Bq7Gq5W.png?raw=true ":)")
+## Contribué
+Tirez les demandes! N'hésitez pas à parcourir [notre liste de problèmes] (https://github.com/ljoboy/zikalizer/issues) pour voir que vous pouvez contribuer [:]] (http://i.imgur.com/Bq7Gq5W. png? raw = true ":)")
 
 # Run as standalone app
 In addition to being a web app, you can also run the Media Player as a standalone app using the Electron runtime.
