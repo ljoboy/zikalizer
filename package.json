@@ -6,11 +6,11 @@
     "main": "main.js",
     "scripts": {
         "start": "./node_modules/.bin/electron .",
-        "pack": "./node_modules/.bin/electron-packager . \"Media Player\" --icon=img/icon.png --out=dist/ --overwrite",
+        "pack": "./node_modules/.bin/electron-packager . \"Zikalizer\" --icon=img/icon.png --out=dist/ --overwrite",
         "pack-win-installer": "node installer/windows/create-installer.js",
-        "pack-win": "./node_modules/.bin/electron-packager . \"Media Player\" --icon=img/icon.ico --out=dist/ --platform=win32 --arch=ia32,x64 --overwrite --win32metadata.CompanyName=\"Media Player team\" --win32metadata.ProductName=\"Media Player\" --win32metadata.InternalName=media-player --win32metadata.LegalCopyright=\"Media Player team\" --win32metadata.FileDescription=\"Media Player\" --win32metadata.OriginalFilename=\"Media Player\"",
-        "pack-osx": "./node_modules/.bin/electron-packager . \"Media Player\" --icon=app-resources/mac/icon.icns --out=dist/ --platform=darwin --arch=x64 --extend-info=app-resources/mac/Info.plist --overwrite",
-        "pack-linux": "./node_modules/.bin/electron-packager . \"Media Player\" --icon=img/icon.png --out=dist/ --platform=linux --arch=ia32,x64 --overwrite",
+        "pack-win": "./node_modules/.bin/electron-packager . \"Zikalizer\" --icon=img/icon.ico --out=dist/ --platform=win32 --arch=ia32,x64 --overwrite --win32metadata.CompanyName=\"Zikalizer team\" --win32metadata.ProductName=\"Zikalizer\" --win32metadata.InternalName=media-player --win32metadata.LegalCopyright=\"Zikalizer team\" --win32metadata.FileDescription=\"Zikalizer\" --win32metadata.OriginalFilename=\"Zikalizer\"",
+        "pack-osx": "./node_modules/.bin/electron-packager . \"Zikalizer\" --icon=app-resources/mac/icon.icns --out=dist/ --platform=darwin --arch=x64 --extend-info=app-resources/mac/Info.plist --overwrite",
+        "pack-linux": "./node_modules/.bin/electron-packager . \"Zikalizer\" --icon=img/icon.png --out=dist/ --platform=linux --arch=ia32,x64 --overwrite",
         "pack-all": "npm run pack-osx && npm run pack-linux && npm run pack-win"
     },
     "repository": {
@@ -22,15 +22,16 @@
         "player",
         "html5",
         "music",
-        "video"
+        "video",
+        "zikalizer"
     ],
     "author": "Lijerbul LJOBOY",
     "contributors": [],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/nt1m/media-player/issues"
+        "url": "https://github.com/ljoboy/zikalizer/issues"
     },
-    "homepage": "https://github.com/nt1m/media-player#readme",
+    "homepage": "https://github.com/ljoboy/zikalizer#readme",
     "devDependencies": {
         "electron": "^1.6.2",
         "electron-packager": "^8.6.0",
