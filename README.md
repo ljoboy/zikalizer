@@ -16,38 +16,38 @@
 ## Contribué
 Tirez les demandes! N'hésitez pas à parcourir [notre liste de problèmes] (https://github.com/ljoboy/zikalizer/issues) pour voir que vous pouvez contribuer [:]] (http://i.imgur.com/Bq7Gq5W. png? raw = true ":)")
 
-# Run as standalone app
-In addition to being a web app, you can also run the Media Player as a standalone app using the Electron runtime.
+## Exécuter en tant qu'application autonome
+En plus d'être une application Web, vous pouvez également exécuter le lecteur multimédia Zikalizer en tant qu'application autonome à l'aide du moteur d'exécution Electron.
 
-To get started, you'll need NodeJS, Npm and optionally git.
+Pour commencer, vous aurez besoin de NodeJS, Npm et éventuellement git.
 
-### Install the Prerequisites
-Download the project (by downloading the zipped project or by typing `git clone https://github.com/nt1m/media-player`)
-then run the following command in the root directory.
+### Installer les prérequis
+Téléchargez le projet (en téléchargeant le projet compressé ou en tapant `git clone https://github.com/ljoboy/zikaizer`)
+puis exécutez la commande suivante dans le répertoire racine.
 ```
 npm i
 ```
 
-### Run the app
+### Exécuter l'application
 
-If nothing fails then you can run the app by typing:
+Si rien ne échoue, vous pouvez exécuter l'application en tapant:
 ```
 npm start
 ```
 
-### Bundling the app:
+### Compilé l'application:
 
-The bundles will appear in `dist/`.
+Les exécutables apparaîtront dans `dist/`.
 
-* Current platform only: `npm run pack`
-* Windows (both 32-bit and 64-bit): `npm run pack-win`
+* Plate-forme actuelle uniquement: `npm run pack`
+* Windows (32-bit et 64-bit): `npm run pack-win`
 * macOS 64-bit: `npm run pack-osx`
-* Linux (both 32-bit and 64-bit): `npm run pack-linux`
-* For all 3 platforms: `npm run pack-all`
+* Linux (32-bit et 64-bit): `npm run pack-linux`
+* Pour les 3 plates-formes: `npm run pack-all`
 
 ### Screenshots
 
-Thank you for reading this readme! Here are some screenshots of the standalone app as a reward:
+Merci d'avoir lu ce readme! Voici quelques captures d'écran de l'appli autonome en récompense:
 
 <img src="screenshots/audio-default-mac.png"/>
 
