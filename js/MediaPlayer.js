@@ -87,7 +87,7 @@ var MediaPlayer = {
         this.uploadEl.addEventListener("change", () => this.uploadFiles(this.uploadEl.files));
 
         /* Setup uploader Folder*/
-        this.uploadFold.addEventListener("change", () => this.uploadFiles(this.uploadFold.files));
+        // this.uploadFold.addEventListener("change", () => this.uploadFiles(this.uploadFold.files));s
         this.sidebarEl.addEventListener("dragenter", () => {
             this.sidebarEl.classList.remove("no-drag");
             this.sidebarEl.classList.add("drag");
