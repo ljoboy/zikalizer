@@ -1,5 +1,6 @@
 # ZIKALIZER
 
+- [Vous pouvez tester en ligne en cliquant ici](https://ljoboy.github.io/zikalizer/)
 ## Auteurs: 
 - [Lijerbul LJOBOY](https://fb.me/jonathan.bosemwa)
 
