@@ -13,7 +13,7 @@ if (setupEvents.handleSquirrelEvent()) {
 }
 
 // Setup file handlers
-var osxFile;
+let osxFile;
 app.on("open-file", (event, filePath) => {
     if (win && win.webContents && !win.webContents.isLoading()) {
         win.webContents.send("file-found", filePath);
