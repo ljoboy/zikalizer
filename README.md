@@ -23,7 +23,7 @@ En plus d'être une application Web, vous pouvez également exécuter le lecteur
 Pour commencer, vous aurez besoin de [NODE JS](https://nodejs.org/), [Npm](https://www.npmjs.com/) et éventuellement [git](https://git-scm.com/).
 
 ### Installer les prérequis
-Téléchargez le projet (en téléchargeant le projet compressé ou en tapant `git clone https://github.com/ljoboy/zikalizer`)
+Téléchargez le projet (en téléchargeant le projet compressé [ici](https://github.com/ljoboy/zikalizer/archive/master.zip) ou en tapant `git clone https://github.com/ljoboy/zikalizer`)
 puis exécutez la commande suivante dans le répertoire racine.
 ```
 npm i
