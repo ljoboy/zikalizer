@@ -20,7 +20,7 @@ Tirez les demandes! N'hésitez pas à parcourir [notre liste de problèmes] (htt
 ## Exécuter en tant qu'application autonome
 En plus d'être une application Web, vous pouvez également exécuter le lecteur multimédia Zikalizer en tant qu'application autonome à l'aide du moteur d'exécution Electron.
 
-Pour commencer, vous aurez besoin de [NODE JS](https://nodejs.org/), [Npm](https://www.npmjs.com/) et éventuellement git.
+Pour commencer, vous aurez besoin de [NODE JS](https://nodejs.org/), [Npm](https://www.npmjs.com/) et éventuellement [git](https://git-scm.com/).
 
 ### Installer les prérequis
 Téléchargez le projet (en téléchargeant le projet compressé ou en tapant `git clone https://github.com/ljoboy/zikalizer`)
